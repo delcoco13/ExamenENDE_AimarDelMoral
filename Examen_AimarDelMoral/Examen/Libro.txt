@@ -8,4 +8,21 @@ public class Libro(String titulo, String autor, String iSBN, Boolean prestado)
 	this.autor = autor;
 	this.iSBN = iSBN;
 	this.prestado = prestado;
+
 }
+Public String getAutor()
+{
+	return autor;
+}
+
+public void setAutor(String autor)
+{
+	this.autor = autor;
+}
+
+@Override
+public String toString()
+{
+	return "Libro [titulo=" + titulo + ", autor=" + autor + ", ISBN=" +  ISBN + ", prestado=" + prestado + "]";
+} 
+
