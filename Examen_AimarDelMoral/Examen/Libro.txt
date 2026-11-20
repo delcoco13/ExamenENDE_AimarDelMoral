@@ -1,10 +1,11 @@
 package Examen;
 
-public class Libro
+public class Libro(String titulo, String autor, String iSBN, Boolean prestado)
 {
 
-	String titulo;
-	String autor;
-	String ISBN;
-	Boolean prestado;
-
+	super()
+	this.titulo = titulo;
+	this.autor = autor;
+	this.iSBN = iSBN;
+	this.prestado = prestado;
+}
